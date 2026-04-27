@@ -1,1 +1,1 @@
-python3 -m app.main
+\# first\_agent\_application
