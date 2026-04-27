@@ -11,3 +11,8 @@ wheels/
 
 # Environment files
 .env
+
+# Database files
+db/*.db
+db/*.db-shm
+db/*.db-wal
