@@ -1,0 +1,28 @@
+[project]
+name = "example-app"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "dashscope>=1.25.17",
+    "ipykernel>=6.31.0",
+    "ipywidgets>=8.1.8",
+    "jupyterlab-widgets>=3.0.16",
+    "langchain==1.2.15",
+    "langchain-community>=0.3.31",
+    "langchain-deepseek>=0.1.4",
+    "langchain-openai>=0.3.35",
+    "langchain-tavily>=0.2.18",
+    "langgraph>=0.6.11",
+    "langgraph-checkpoint-sqlite>=2.0.0",
+    "langgraph-checkpoint-postgres==2.0.9",
+    "openai>=2.31.0",
+    "psycopg[binary,pool]>=3.0.0",
+    "psycopg2-binary>=2.9.0",
+    "python-dotenv>=1.2.1",
+    "tavily-python>=0.7.23",
+    "langgraph-cli[inmem]>=0.4.8",
+    "fastapi>=0.136.1",
+    "alibabacloud-oss-v2>=1.2.5",
+]

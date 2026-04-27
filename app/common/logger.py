@@ -1,0 +1,15 @@
+import logging
+import sys
+
+# 配置日志格式： 时间 - 基本 - 模块 - 消息
+LOG_FORMAT= "%(asctime)s - %(levelname)s - %(name)s - %(message)s"
+
+def setup_logging():
+    logging.basicConfig(
+        level=logging.INFO,
+        format=LOG_FORMAT,
+        handlers=[logging.StreamHandler(sys.stdout)], # 输出到控制台
+        # logging.FileHandler("app.log"), # 输出到文件
+    )
+
+logger = logging.getLogger("personal_chief")
